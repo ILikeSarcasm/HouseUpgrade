@@ -1,0 +1,36 @@
+name: HouseUpgrade
+version: '${project.version}'
+main: me.ilikesarcasm.houseupgrade.HouseUpgrade
+api-version: 1.19
+authors: [ ILikeSarcasm ]
+depend: [ AreaShop ]
+description: Upgrade your house
+commands:
+  houseupgrade:
+    description: Open the HouseUpgrade menu
+    usage: /houseupgrade
+    aliases: [hu]
+permissions:
+  houseupgrade.*:
+    description: Grants access to every HouseUpgrade commands
+    children:
+      houseupgrade.tabComplete: true
+      houseupgrade.menu: true
+      houseupgrade.save: true
+      houseupgrade.register: true
+      houseupgrade.upgrade: true
+  houseupgrade.tabComplete:
+    description: Grants access to the tab completion
+    default: true
+  houseupgrade.menu:
+    description: Grants access to /houseupgrade menu
+    default: true
+  houseupgrade.save:
+    description: Grants access to /houseupgrade save
+    default: false
+  houseupgrade.register:
+    description: Grants access to /houseupgrade register
+    default: false
+  houseupgrade.upgrade:
+    description: Grants access to /houseupgrade upgrade
+    default: true

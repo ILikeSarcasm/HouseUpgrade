@@ -1,0 +1,12 @@
+default:
+  language:
+    file: "en.yml"
+houses:
+  type:
+    dimensions:
+      level:
+        upgrade-cost: 5
+  type2:
+    dimensions:
+      level:
+        upgrade-cost: 2

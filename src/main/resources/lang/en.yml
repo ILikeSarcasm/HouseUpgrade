@@ -1,0 +1,26 @@
+cmd:
+  does-not-exist: "Command does not exist."
+  player-only: "This command can only be performed by a player."
+  missing-permission: "You do not have the permission to perform this command."
+
+house:
+  does-not-exist: "House {0} does not exist."
+  bought: "You are now the owner of {0}."
+  type:
+    does-not-exist: "House type {0} does not exist."
+  structure:
+    save:
+      failed: "Couldn't save the house's structure."
+      succeed: "House structure saved."
+  upgrade:
+    already-maxed-out: "{0} has already been maxed out."
+    failed: "Couldn't upgrade the house."
+    succeed: "House upgraded."
+  register:
+    success: "Successfuly registered {0}."
+    already-registered: "{0} has already been registered."
+region:
+  does-not-exist: "Region {0} does not exist."
+
+help:
+  no-help: "No help found for this command."
